@@ -25,3 +25,5 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean install
+      - name: Run a hello world script
+        run: echo "After mvn clean build"
